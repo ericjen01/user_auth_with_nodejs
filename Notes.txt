@@ -1,0 +1,33 @@
+---------------------------- Project Description / Goal / Scope -----------------------------------------------------------------------------------
+User authentication is critical for every website.
+This is a simple user login system using nodeJS. It includes some simple security steps to ensure sensitive information is protected. 
+
+---------------------------- Languages/Tools Used: -----------------------------------------------------------------------------------
+  - JavaScript
+  - Node.js             https://nodejs.org/en/                  To check if nodeJS has been installed type in "node -v"
+  - npm package manager https://www.npmjs.com/                  Default package manager for the JavaScript runtime environment Node.js
+  - react               https://www.npmjs.com/package/react     Requires package.json file initiated
+  - cheerior            https://www.npmjs.com/package/cheerio     \\
+  - Rest client         Allows to send HTTP request and view the response in VS Code directly
+  - express             https://www.npmjs.com/package/express     \\
+  - nodemon             https://www.npmjs.com/package/nodemon     \\
+
+---------------------------- Procedure: ----------------------------------------------------------------------------------------------
+    - Get a json package by typing 'npm init -y' (-y will give us all the default values for package.json)
+    - Install an express server: npm i express bcrypt (bcrypt allows us to use all cryptography and securing info hashes)
+    - Install nodemon (npm i nodemon)
+    - Under "scripts" in packag.json add:
+        "start": "node index.js",
+		  "start:dev": "nodemon server.js" (server.js is the file we will be using)
+    - Create file 'request.rest' to test Post requests
+      
+---------------------------- Remarks: -----------------------------------------------------------------------------------------------
+  - "npm init" comes up with a packages.json file so pkgs or modules on www.npmjs.com can be added
+  - cheerior retrieves/parses HTML pages via Cheerio Node.js library & allows scraping pages that dnot rely on client-side JavaScript
+  - express = back-end framework for nodeJS. To be installed to listen to parse and listen out to our port
+  - axios is a promise-based HTTP client for the browser and node.js which can GET POST PULL and DELETE data
+  - nodemon = automatically restarting the node application when file changes in the directory are detected
+
+
+---------------------------- Issue, Solution & Tips : -----------------------------------------------------------------------------------
+
